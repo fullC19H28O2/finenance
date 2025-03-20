@@ -25,3 +25,6 @@ app.use("/api/auth", authRoutes);
 
 const userRoutes = require("./routes/user");
 app.use("/api/user", userRoutes);
+
+const transactionRoutes = require("./routes/transaction");
+app.use("/api/transactions",transactionRoutes);
